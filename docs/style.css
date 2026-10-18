@@ -1,0 +1,13 @@
+body {
+    background:#d5bf8b;
+    font-family: serif;
+    }
+
+div.side-by-side {
+    display: flex;
+    }
+    
+img {
+    width: 59%;
+    max-width: 500px;
+}
