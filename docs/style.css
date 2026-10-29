@@ -78,3 +78,23 @@ figcaption {
     width: 20vw;
     min-width: 220px;
 }
+
+footer {
+    background: #352809;
+    color: white;
+    text-align: center;
+    padding: 1.5vw;
+    margin-top: 2vw;
+}
+
+footer a {
+    color: #d5bf8b;
+    text-decoration: none;
+    margin: 0 1vw;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: white;
+    text-decoration: underline;
+}
