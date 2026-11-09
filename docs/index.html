@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Comparing Data from Pierce The Veil's Discography</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <!-- Everything is very, very, very messy for now. I have lots of ideas for working on this in the future, and I really want to go further with my analysis. For now, I'm putting just the basic information on the page (this is what web *development* is all about, I suppose!)-->
+    <body>
+        <h1>Comparing Data from Pierce The Veil's Discography</h1>
+        <h2>Context</h2>
+        <p>Pierce The Veil is an American rock band formed in San Diego in 2006. It was founded by Vic and Mikey Fuentes (brothers), and Vic Fuentes is the lead singer to this day. Pierce The Veil is my favorite band (has been for years); I'm very passionate about their music, and very excited to explore data derived from their albums further!</p>
+        <h3>Overview</h3>
+        <p>I will be comparing text-based data derived from the band's first two albums, <i>A Flair for the Dramatic</i> and <i>Selfish Machines</i>.</p>
+        <p>First, I input each album into their own .txt files. I copy-and-pasted the lyrics of each song from Genius.com.</p>
+        <p>Then, I began my analysis using Voyant tools. Voyant helped me visualize frequently-used words through text clouds, and gave me a graph for the frequency of certain words throughout the album. Voyant Tools gave me a good idea of what to look for, and what data I could use in my analysis with AntConc.</p>
+        <p>AntConc allowed me to get more in-depth information on frequently used phrases, what occured before/after those phrases, and overall more precise text-based analysis.</p>
+        <h2>Analysis</h2>
+        <h3>Findings from Voyant Tools</h3>
+        <p>Here's the text clouds Voyant generated:</p>
+        <figure>
+            <img src="images/text_cloud_AFFTD.png" alt="Text cloud of the most frequent words from A Flair for the Dramatic."/>
+            <figcaption><i>A text cloud of the most frequent words used in </i>A Flair for the Dramatic<i>.</i></figcaption>
+        </figure>
+        <figure>
+            <img src="images/text_cloud_SM.png" alt="Text cloud of the most frequent words from Selfish Machines."/>
+            <figcaption><i>A text cloud of the most frequent words used in </i>Selfish Machines<i>.</i></figcaption>
+        </figure>
+        <p>I think these comparisons are pretty interesting. In my opinion, the frequent words used in <i>A Flair for the Dramatic</i> seem more morbid than the ones from <i>Selfish Machines</i>. I also find it somewhat laughable that words like "oh" and "da" are very common.</p>
+        <p>Here's the graphs Voyant generated:</p>
+        <figure>
+            <img src="images/graph_AFFTD.png" alt="A graph highlighting the top 5 most frequent words and where they occure in A Flair for the Dramatic."/>
+            <figcaption><i>A graph representing the frequency of the top-5 words and where they occure across </i>A Flair for the Dramatic<i>.</i></figcaption>
+        </figure>
+        <figure>
+            <img src="images/graph_SM.png" alt="A graph highlighting the top 5 most frequent words and where they occure in Selfish Machines."/>
+            <figcaption><i>A graph representing the frequency of the top-5 words and where they occure across </i>Selfish Machines<i>.</i></figcaption>
+        </figure>
+        <p>I find it interesting that "oh" is the most frequently used word across both albums, but in <i>Selfish Machines</i>, "oh" spikes twice across the album- most likely in different songs.</p>
+        <h3>Findings from AntConc</h3>
+        <p>Here's visualizations of some analysis I performed in AntConc:</p>
+        <figure>
+            <img src="images/AC_like_AFFTD.png"/>
+            <figcaption><i>Studying where/how the word "like" appears in </i>A Flair for the Dramatic<i>.</i></figcaption>
+        </figure>
+        <figure>
+            <img src="images/AC_like_SM.png"/>
+            <figcaption><i>Studying where/how the word "like" appears in </i>Selfish Machines<i>.</i></figcaption>
+        </figure>
+        <p>*Under construction!</p>
+        <figure>
+            <img src="images/AC_3_AFFTD.png"/>
+            <figcaption><i>Studying the most frequent 3-word phrases across</i>A Flair for the Dramatic<i>, only including phrases that occur 10 or more times.</i></figcaption>
+        </figure>
+        <figure>
+            <img src="images/AC_3_SM.png"/>
+            <figcaption><i>Studying the most frequent 3-word phrases across</i>Selfish Machines<i>, only including phrases that occur 10 or more times.</i></figcaption>
+        </figure>
+        <p>*Under construction!</p>
+        <figure>
+            <img src="images/AC_6_AFFTD.png"/>
+            <figcaption><i>Studying the most frequent 6-word phrases across </i>A Flair for the Dramatic<i>.</i></figcaption>
+        </figure>
+        <figure>
+            <img src="images/AC_6_SM.png"/>
+            <figcaption><i>Studying the most frequent 6-word phrases across </i>Selfish Machines<i>.</i></figcaption>
+        </figure>
+        <p>*Under construction!</p>
+        <!-- Sleep deprived... Will do lots more with this soon. Need to catch up on sleep- very, very, very excited to pick this back up though! -->
+    </body>
+</html>
