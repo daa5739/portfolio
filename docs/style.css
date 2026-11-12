@@ -1,10 +1,17 @@
 /* using the styling from my previous project temporarily- will change this! just wanted to make it look pretty momentarily. not sure if this is possible, but i'd love to have some kind of interactive vinyl player on the website... stay tuned! */
 /* color codes based on AFFTD album cover: #d5c0aa (cream/nude), #161710 (black/green), #6a583c (cool brown), #898e6b (sage), #8c847c (warm grey) */
 /* color codes for SM album cover: #171815 (black/green), #cfc6c2 (rosy light grey), #7f95a1 (muted sky blue), #9f5e46 (medium burnt orange), #6d7f91 (darkish muted blue) */
+@font-face {
+    font-family: 'Billhead';
+    src: url('billhead1910.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
-    background: #161710;
+    background: #171815;
     font-family: "Times New Roman", serif;
-    color: #915039;
+    color: #cfc6c2;
     margin: 0;
 }
 
@@ -14,28 +21,40 @@ header {
 }
 
 h1 {
-    font-size: 3vw;
+    font-family: Billhead;
+    font-size: 58px;
+    color: #7f95a1;
 }
 
 h2 {
-    color: #644814;
+    font-family: Billhead;
+    color: #6d7f91;
+    font-size: 42px;
+}
+
+h3 {
+    font-family: Billhead;
+    font-size: 26px;
+    color: #6d7f91;
 }
 
 nav {
-    background: #352809;
+    background: #6d7f91;
     padding: 1vw;
     text-align: center;
 }
 
 nav a {
-    color: white;
+    font-family: Billhead;
+    color: #cfc6c2;
     text-decoration: none;
     margin: 2vw;
+    font-size: 26px;
     font-weight: bold;
 }
 
 nav a:hover {
-    color: #d5bf8b;
+    color: #9f5e46;
 }
 
 .side-by-side {
