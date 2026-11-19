@@ -4,14 +4,13 @@
 @font-face {
     font-family: 'Billhead';
     src: url('billhead1910.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
 }
 
 body {
     background: #171815;
     font-family: "Times New Roman", serif;
     color: #cfc6c2;
+    font-size: 18px;
     margin: 0;
 }
 
@@ -49,12 +48,12 @@ nav a {
     color: #cfc6c2;
     text-decoration: none;
     margin: 2vw;
-    font-size: 26px;
+    font-size: 32px;
     font-weight: bold;
 }
 
 nav a:hover {
-    color: #9f5e46;
+    color: #171815;
 }
 
 .side-by-side {
@@ -64,19 +63,15 @@ nav a:hover {
     align-items: center;
 }
 
-.about-box {
-    width: 40vw;
-}
-
 img {
     width: 100%;
     max-width: 350px;
 }
 
 figure {
-    background: #f5e8bf;
+    background: #7f95a1;
     padding: 1vw;
-    border: 4px solid #644814;
+    border: 4px solid #6d7f91;
     border-radius: 10px;
     display: inline-block;
     max-width: 350px;
@@ -84,39 +79,23 @@ figure {
 
 figcaption {
     text-align: center;
-    font-style: italic;
     margin-top: 10px;
 }
 
-.gallery {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 2vw;
-    padding: 2vw;
-}
-
-.gallery figure {
-    width: 20vw;
-    min-width: 220px;
-}
-
 footer {
-    background: #352809;
-    color: white;
+    font-family: Billhead;
+    background: #6d7f91;
     text-align: center;
-    padding: 1.5vw;
-    margin-top: 2vw;
+    padding: .1vw;
+    margin-top: 1vw;
+    font-size: 32px;
 }
 
 footer a {
-    color: #d5bf8b;
+    color: #cfc6c2;
     text-decoration: none;
-    margin: 0 1vw;
-    font-weight: bold;
 }
 
 footer a:hover {
-    color: white;
-    text-decoration: underline;
+    color: #171815;
 }
